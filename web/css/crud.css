@@ -1,0 +1,87 @@
+.titulo_principal{
+    width: 100%;
+}
+
+.titulo_principal h1{
+    text-align: center;
+    border-left: 3px solid black;
+    width: 50%;
+    padding: 18px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.titulo_principal h1:hover{
+    background: linear-gradient(90deg, #4081d25c, #02ad0f6e)
+}
+
+.container{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.container_info{
+    width: 40%;
+    margin: auto;
+    border:none;
+    height: auto;
+    background: #efefefbf;
+    border: 2px solid #039c568f;
+    
+}
+
+.container .container_info h1{
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 0.2ch;
+}
+
+h1 span{
+    color: green;
+}
+
+.form{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.form #rol{
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form input[type="text"], input[type="password"], input[type="email"]{
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 0px;
+    outline: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    color: black;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.form input[type="submit"]{
+   
+}
+
+.form a{
+    margin-left: 10px;
+}
+
+.form .botones{
+    display: flex;
+    justify-content: center;
+}
+
+
